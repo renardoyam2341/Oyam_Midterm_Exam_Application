@@ -5,17 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movies</title>
 </head>
-<style>
-    table{
-        background-color: skyblue;
-        width:500px;
-        height:500px;
-    }
-    td,th{
-        font-size:50px;
-        border:solid;
-    }
-</style>
+
 <body>
     <h1>Movies</h1>
     <table class="table">
