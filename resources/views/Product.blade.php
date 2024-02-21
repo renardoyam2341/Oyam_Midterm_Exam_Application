@@ -3,11 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movies</title>
+    <title>TrendingMovies</title>
 </head>
-
+<style>
+    table{
+        background-color: skyblue;
+        width:100%;
+        height:100%;
+    }
+    td,th{
+        font-size:50px;
+        border:solid;
+    }
+    h1{
+      font-size:100px;
+    }
+</style>
 <body>
-    <h1>Movies</h1>
+    <h1>Trending Movies</h1>
     <table class="table">
   <thead>
     <tr>
@@ -35,6 +48,18 @@
       <td>119</td>
       <td>10,999</td>
       <td>6.2</td>
+    </tr>
+    <tr>
+      <th scope="row">Godzilla</th>
+      <td>121</td>
+      <td>10,900</td>
+      <td>6.1</td>
+    </tr>
+    <tr>
+      <th scope="row">Wonka</th>
+      <td>130</td>
+      <td>10,400</td>
+      <td>7.2</td>
     </tr>
   </tbody>
 </table>
